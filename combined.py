@@ -6,7 +6,7 @@ def dlProgress(count, blockSize, totalSize):
 
 n=0
 
-file = open('test.txt', 'r')
+file = open('links.txt', 'r')
 text = file.read()
 lines = text.split('\n')
 
